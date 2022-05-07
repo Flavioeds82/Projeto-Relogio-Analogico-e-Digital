@@ -1,0 +1,112 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #333;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+h1{
+   
+   margin-top: 40px;
+   margin-bottom: 25px;
+   padding: 0;
+   font-size: 32px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: #fff;
+}
+h2{
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: #fff;
+   text-align: center;
+   margin-top: 30px;
+}
+.relogio{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.riscos{
+   display: flex;
+   border: 5px solid #fff;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   background-color: #222;
+   
+}
+.risco{
+   width: 150px;
+   height: 5px;
+   margin-left: 150px;
+   transform-origin: left;
+   position:absolute;
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.risco .ponto {
+   width: 15px;
+   height: 100%;
+   background-color: #FFF;
+}
+.ponteiros{
+   width: 15px;
+   height: 15px;
+   background-color: #fff;
+   border: 2px solid #FFF;
+   border-radius: 50%;
+   position: absolute;
+   margin-top: 100px;
+
+}
+.ponteiro{
+   transform-origin: left;
+   transform: rotate(0deg);
+   border-radius: 50%;
+   position: absolute;
+}
+.segundos{
+   width: 130px;
+   height: 3px;
+   background-color: #fff;
+   margin: 5px;
+}
+.minutos{
+   width: 110px;
+   height: 7px;
+   background-color: #fff;
+   margin: 5px;
+}
+.horas{
+   width: 90px;
+   height: 10px;
+   background-color: #fff;
+   margin: 7px;
+}
+.digital{
+   text-align: center;
+   color: #FFF;
+   font-size: 35px;
+   font-weight:100;
+}
+.digital h2{
+   font-size: 30px;
+}
+.digital h3{
+   font-size: 40px;
+   font-weight: normal;
+   margin-top: 10px;
+}
+.footer{
+   text-align: center;
+   color: #fff;
+   font-size: 15px;
+}
